@@ -11,11 +11,10 @@
 *	Erick Manuel Fuentes Miranda
 *	Francisco Antonio De León Natareno
 */
-
+#include "programas/mynor/programa4.h"
 #include "programas/erick/programa1.cpp"
 #include "programas/josseline/programa2.cpp"
 #include "programas/erick/programa3.cpp"
-#include "programas/mynor/programa4.cpp"
 #include "programas/erick/programa5.cpp"
 #include "programas/erick/programa6.cpp"
 #include "programas/josseline/programa7.cpp"
@@ -81,10 +80,10 @@ int main() {
                 //programaTres();
                 break;
             case 4:
-                cout << "Determinar si una palabra o un número es palíndromo" << endl;
-                // Agregar funcionalidad del programa4
-                //programaCuatro();
-                break;
+            system("cls"); // Limpia la consola (solo en Windows)
+            cout << "Determinar si una palabra o un número es palíndromo" << endl;
+            programaCuatro(); // Llamada al programa 4
+            break;
             case 5:
                 cout << "Conversión de números arábigos a romanos" << endl;
                 // Agregar funcionalidad del programa5
