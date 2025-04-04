@@ -7,7 +7,6 @@
 *	Autor:
 *	Mynor Alexander Gómez Pedro
 */
-#include "programa4.h"
 #include <iostream>
 #include <algorithm>
 #include <cctype> // Para tolower()

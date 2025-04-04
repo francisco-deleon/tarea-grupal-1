@@ -11,7 +11,7 @@
 *	Erick Manuel Fuentes Miranda
 *	Francisco Antonio De León Natareno
 */
-#include "programas/mynor/programa4.h"
+#include "programas/mynor/programa4.cpp"
 #include "programas/erick/programa1.cpp"
 #include "programas/josseline/programa2.cpp"
 #include "programas/erick/programa3.cpp"
@@ -35,7 +35,6 @@
 #include "windows.h" // Para poder imprimir tildes o caracteres especiales
 
 using namespace std;
-
 int main() {
 	SetConsoleOutputCP(65001); // Establece el CodePage en caracteres UTF-8
 	string valor;
