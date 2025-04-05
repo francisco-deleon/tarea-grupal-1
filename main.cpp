@@ -23,7 +23,7 @@
 #include "programas/mynor/programa10.cpp"
 #include "programas/david/programa11.cpp"
 #include "programas/david/programa12.cpp"
-//#include "programas/mynor/programa13.cpp"
+#include "programas/mynor/programa13.cpp"
 #include "programas/david/programa14.cpp"
 #include "programas/mynor/programa15.cpp"
 #include "programas/david/programa16.cpp"
@@ -127,7 +127,7 @@ int main() {
             case 13:
                 cout << "Crear figuras geométricas básicas" << endl;
                 // Agregar funcionalidad del programa13
-                //programaTrece();
+                programaTrece();
                 break;
             case 14:
                 cout << "Mover un punto en toda la pantalla" << endl;
