@@ -23,7 +23,7 @@
 #include "programas/mynor/programa10.cpp"
 #include "programas/david/programa11.cpp"
 #include "programas/david/programa12.cpp"
-#include "programas/mynor/programa13.cpp"
+//#include "programas/mynor/programa13.cpp"
 #include "programas/david/programa14.cpp"
 #include "programas/mynor/programa15.cpp"
 #include "programas/david/programa16.cpp"
@@ -108,10 +108,11 @@ int main() {
                 // Agregar funcionalidad del programa9
                 //programaNueve();
                 break;
-            case 10:
+            case 10: 
                 cout << "Crear de forma gráfica una multiplicación manual" << endl;
                 // Agregar funcionalidad del programa10
-                //programaDiez();
+                system("cls"); 
+                programaDiez();
                 break;
             case 11:
                 cout << "Conversión de números decimales a binario" << endl;

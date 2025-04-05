@@ -3,7 +3,6 @@
 *	
 *	Universidad Mariano Gálvez de Guatemala
 *	Facultad de Ingeniería en Sistemas
-*	
 *	Autor:
 *	Mynor Alexander Gómez Pedro
 */
@@ -18,11 +17,12 @@ bool esPalindromo(const std::string &palabra) {
 
 // Implementación de programaCuatro
 void programaCuatro() {
+	system("color 74");
     char continuar;
     
     do {
         std::string palabra;
-        std::cout << "Ingrese palabra/número: ";
+        std::cout << "\nIngrese palabra/número: ";
         std::cin >> palabra;
 
         std::cout << (esPalindromo(palabra) ? "✅ Es palíndromo" : "❌ No es palíndromo") << std::endl;
@@ -37,4 +37,5 @@ void programaCuatro() {
     
     std::cout << "Programa terminado." << std::endl;
     system("cls"); // Limpia la consola (solo en Windows)
+    system("color 07");
 }
