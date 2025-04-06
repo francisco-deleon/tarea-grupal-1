@@ -69,8 +69,8 @@ int main() {
                 //programaUno();
                 break;
             case 2:
-                cout << "Determinar si un número es Par o Impar" << endl;
-                 Agregar funcionalidad del programa2
+                system("cls"); // Limpia la consola (solo en Windows)
+                // Agregar funcionalidad del programa2
                 programaDos();
                 break;
             case 3:
@@ -79,10 +79,10 @@ int main() {
                 //programaTres();
                 break;
             case 4:
-            system("cls"); // Limpia la consola (solo en Windows)
-            cout << "Determinar si una palabra o un número es palíndromo" << endl;
-            programaCuatro(); // Llamada al programa 4
-            break;
+	            system("cls"); // Limpia la consola (solo en Windows)
+	            // Agregar funcionalidad del programa4
+	            programaCuatro(); // Llamada al programa 4
+            	break;
             case 5:
                 cout << "Conversión de números arábigos a romanos" << endl;
                 // Agregar funcionalidad del programa5
@@ -94,33 +94,32 @@ int main() {
                 //programaSeis();
                 break;
         	case 7:
-                cout << "Conversión de números enteros con decimal a letras" << endl;
-                 Agregar funcionalidad del programa7
+                system("cls"); // Limpia la consola (solo en Windows)
+                // Agregar funcionalidad del programa7
                 programaSiete();
                 break;
             case 8:
-                cout << "Una tabla de multiplicar" << endl;
-                 Agregar funcionalidad del programa8
+                system("cls"); // Limpia la consola (solo en Windows)
+                // Agregar funcionalidad del programa8
                 programaOcho();
                 break;
             case 9:
-                cout << "Todas las tablas de multiplicar del 1 al 10" << endl;
-                 Agregar funcionalidad del programa9
+                system("cls"); // Limpia la consola (solo en Windows)
+                // Agregar funcionalidad del programa9
                 programaNueve();
                 break;
             case 10: 
-                cout << "Crear de forma gráfica una multiplicación manual" << endl;
+                system("cls"); // Limpia la consola (solo en Windows)
                 // Agregar funcionalidad del programa10
-                system("cls"); 
                 programaDiez();
                 break;
             case 11:
-                cout << "Conversión de números decimales a binario" << endl;
+            	system("cls"); // Limpia la consola (solo en Windows)
                 // Agregar funcionalidad del programa11
                 programaOnce();
                 break;
             case 12:
-                cout << "Conversión de números decimales a hexadecimales" << endl;
+            	system("cls"); // Limpia la consola (solo en Windows)
                 // Agregar funcionalidad del programa12
                 programaDoce();
                 break;
@@ -130,38 +129,38 @@ int main() {
                 programaTrece();
                 break;
             case 14:
-                cout << "Mover un punto en toda la pantalla" << endl;
+                system("cls"); // Limpia la consola (solo en Windows)
                 // Agregar funcionalidad del programa14
                 programaCatorce();
                 break;
             case 15:
-                cout << "Simulación de un Cajero (Autómata)" << endl;
+                system("cls"); // Limpia la consola (solo en Windows)
                 // Agregar funcionalidad del programa15
                 programaQuince();
                 
                 break;
             case 16:
-                cout << "Calcular la hipotenusa" << endl;
+                system("cls"); // Limpia la consola (solo en Windows)
                 // Agregar funcionalidad del programa16
                 programaDieciseis();
                 break;
             case 17:
-                cout << "Libre 1" << endl;
+                system("cls"); // Limpia la consola (solo en Windows)
                 // Agregar funcionalidad del programa17
                 programaDiecisiete();
                 break;
             case 18:
-                cout << "Libre 2" << endl;
+                system("cls");
                 // Agregar funcionalidad del programa18
                 programaDieciocho();
                 break;
             case 19:
-                cout << "Libre 3" << endl;
+                system("cls"); // Limpia la consola (solo en Windows)
                 // Agregar funcionalidad del programa19
                 programaDiecinueve();
                 break;
             case 20:
-                cout << "Libre 4" << endl;
+                system("cls"); // Limpia la consola (solo en Windows)
                 // Agregar funcionalidad del programa20
                 programaVeinte();
                 break;
