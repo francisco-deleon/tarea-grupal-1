@@ -137,7 +137,8 @@ int main() {
             case 15:
                 cout << "Simulación de un Cajero (Autómata)" << endl;
                 // Agregar funcionalidad del programa15
-                //programaQuince();
+                programaQuince();
+                
                 break;
             case 16:
                 cout << "Calcular la hipotenusa" << endl;
