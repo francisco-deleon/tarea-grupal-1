@@ -148,22 +148,22 @@ int main() {
             case 17:
                 cout << "Libre 1" << endl;
                 // Agregar funcionalidad del programa17
-                //programaDiecisiete();
+                programaDiecisiete();
                 break;
             case 18:
                 cout << "Libre 2" << endl;
                 // Agregar funcionalidad del programa18
-                //programaDieciocho();
+                programaDieciocho();
                 break;
             case 19:
                 cout << "Libre 3" << endl;
                 // Agregar funcionalidad del programa19
-                //programaDiecinueve();
+                programaDiecinueve();
                 break;
             case 20:
                 cout << "Libre 4" << endl;
                 // Agregar funcionalidad del programa20
-                //programaVeinte();
+                programaVeinte();
                 break;
             case 21:
                 cout << "Saliendo del programa..." << endl;
