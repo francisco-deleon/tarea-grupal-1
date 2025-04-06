@@ -13,6 +13,10 @@
 #include <sstream>
 #include <map>
 
+void programaSiete()
+{
+}
+
 std::string convertirNumeroALetras(int numero) {
     std::map<int, std::string> palabras = {
         {0, "cero"}, {1, "uno"}, {2, "dos"}, {3, "tres"}, {4, "cuatro"},

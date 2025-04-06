@@ -70,8 +70,8 @@ int main() {
                 break;
             case 2:
                 cout << "Determinar si un número es Par o Impar" << endl;
-                // Agregar funcionalidad del programa2
-                //programaDos();
+                 Agregar funcionalidad del programa2
+                programaDos();
                 break;
             case 3:
                 cout << "Convertir de kilómetros a millas, metros a pulgadas, de libras a kilos" << endl;
@@ -95,18 +95,18 @@ int main() {
                 break;
         	case 7:
                 cout << "Conversión de números enteros con decimal a letras" << endl;
-                // Agregar funcionalidad del programa7
-                //programaSiete();
+                 Agregar funcionalidad del programa7
+                programaSiete();
                 break;
             case 8:
                 cout << "Una tabla de multiplicar" << endl;
-                // Agregar funcionalidad del programa8
-                //programaOcho();
+                 Agregar funcionalidad del programa8
+                programaOcho();
                 break;
             case 9:
                 cout << "Todas las tablas de multiplicar del 1 al 10" << endl;
-                // Agregar funcionalidad del programa9
-                //programaNueve();
+                 Agregar funcionalidad del programa9
+                programaNueve();
                 break;
             case 10: 
                 cout << "Crear de forma gráfica una multiplicación manual" << endl;

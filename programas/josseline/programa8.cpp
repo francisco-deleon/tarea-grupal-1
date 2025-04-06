@@ -11,6 +11,10 @@
 #include <iostream>
 using namespace std;
 
+void programaOcho()
+{
+}
+
 int main(){
 	int numero;
 	
