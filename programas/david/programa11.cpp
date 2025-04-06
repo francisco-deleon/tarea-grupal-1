@@ -17,7 +17,7 @@ void programaOnce()
 	int decimal;
 	string binario = "";
 	
-	cout<< "Ingrese un numero decimal: ";
+	cout << "Ingrese un numero decimal: ";
 	cin >> decimal;
 	
 	if(decimal == 0) {
@@ -30,10 +30,5 @@ void programaOnce()
 			
 		}
 	}
-	cout<<"El numero binario es: "<<binario<<endl;
-}
-int main()
-{
-	programaOnce();
-	return 0;
+	cout << "El numero binario es: " << binario << endl;
 }
