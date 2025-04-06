@@ -36,10 +36,3 @@ void programaCatorce(){
 		Sleep(50);
 	}
 }
-
-int main() {
-	programaCatorce();
-	return 0;
-}
-	
-
