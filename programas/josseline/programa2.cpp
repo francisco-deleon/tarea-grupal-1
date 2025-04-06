@@ -11,6 +11,10 @@
 #include <iostream>
 using namespace std;
 
+void programaDos()
+{
+}
+
 int main() {
     int numero;
 
