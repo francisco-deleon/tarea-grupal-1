@@ -118,12 +118,12 @@ int main() {
             case 11:
                 cout << "Conversión de números decimales a binario" << endl;
                 // Agregar funcionalidad del programa11
-                //programaOnce();
+                programaOnce();
                 break;
             case 12:
                 cout << "Conversión de números decimales a hexadecimales" << endl;
                 // Agregar funcionalidad del programa12
-                //programaDoce();
+                programaDoce();
                 break;
             case 13:
                 cout << "Crear figuras geométricas básicas" << endl;
@@ -133,7 +133,7 @@ int main() {
             case 14:
                 cout << "Mover un punto en toda la pantalla" << endl;
                 // Agregar funcionalidad del programa14
-                //programaCatorce();
+                programaCatorce();
                 break;
             case 15:
                 cout << "Simulación de un Cajero (Autómata)" << endl;
@@ -143,7 +143,7 @@ int main() {
             case 16:
                 cout << "Calcular la hipotenusa" << endl;
                 // Agregar funcionalidad del programa16
-                //programaDieciseis();
+                programaDieciseis();
                 break;
             case 17:
                 cout << "Libre 1" << endl;
