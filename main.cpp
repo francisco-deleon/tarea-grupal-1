@@ -11,11 +11,10 @@
 *	Erick Manuel Fuentes Miranda
 *	Francisco Antonio De León Natareno
 */
-
+#include "programas/mynor/programa4.cpp"
 #include "programas/erick/programa1.cpp"
 #include "programas/josseline/programa2.cpp"
 #include "programas/erick/programa3.cpp"
-#include "programas/mynor/programa4.cpp"
 #include "programas/erick/programa5.cpp"
 #include "programas/erick/programa6.cpp"
 #include "programas/josseline/programa7.cpp"
@@ -36,7 +35,6 @@
 #include "windows.h" // Para poder imprimir tildes o caracteres especiales
 
 using namespace std;
-
 int main() {
 	SetConsoleOutputCP(65001); // Establece el CodePage en caracteres UTF-8
 	string valor;
@@ -81,10 +79,10 @@ int main() {
                 //programaTres();
                 break;
             case 4:
-                cout << "Determinar si una palabra o un número es palíndromo" << endl;
-                // Agregar funcionalidad del programa4
-                //programaCuatro();
-                break;
+            system("cls"); // Limpia la consola (solo en Windows)
+            cout << "Determinar si una palabra o un número es palíndromo" << endl;
+            programaCuatro(); // Llamada al programa 4
+            break;
             case 5:
                 cout << "Conversión de números arábigos a romanos" << endl;
                 // Agregar funcionalidad del programa5
@@ -110,10 +108,11 @@ int main() {
                  Agregar funcionalidad del programa9
                 programaNueve();
                 break;
-            case 10:
+            case 10: 
                 cout << "Crear de forma gráfica una multiplicación manual" << endl;
                 // Agregar funcionalidad del programa10
-                //programaDiez();
+                system("cls"); 
+                programaDiez();
                 break;
             case 11:
                 cout << "Conversión de números decimales a binario" << endl;
@@ -128,7 +127,7 @@ int main() {
             case 13:
                 cout << "Crear figuras geométricas básicas" << endl;
                 // Agregar funcionalidad del programa13
-                //programaTrece();
+                programaTrece();
                 break;
             case 14:
                 cout << "Mover un punto en toda la pantalla" << endl;
@@ -138,7 +137,8 @@ int main() {
             case 15:
                 cout << "Simulación de un Cajero (Autómata)" << endl;
                 // Agregar funcionalidad del programa15
-                //programaQuince();
+                programaQuince();
+                
                 break;
             case 16:
                 cout << "Calcular la hipotenusa" << endl;

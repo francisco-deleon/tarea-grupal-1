@@ -3,15 +3,39 @@
 *	
 *	Universidad Mariano Gálvez de Guatemala
 *	Facultad de Ingeniería en Sistemas
-*	
 *	Autor:
 *	Mynor Alexander Gómez Pedro
 */
-
 #include <iostream>
+#include <algorithm>
+#include <cctype> // Para tolower()
 
-using namespace std;
+// Implementación de esPalindromo
+bool esPalindromo(const std::string &palabra) {
+    return palabra == std::string(palabra.rbegin(), palabra.rend());
+}
 
-void programaCuatro()
-{
+// Implementación de programaCuatro
+void programaCuatro() {
+	system("color 74");
+    char continuar;
+    
+    do {
+        std::string palabra;
+        std::cout << "\nIngrese palabra/número: ";
+        std::cin >> palabra;
+
+        std::cout << (esPalindromo(palabra) ? "✅ Es palíndromo" : "❌ No es palíndromo") << std::endl;
+        
+        std::cout << "\n¿Desea probar otra palabra? (S/N): ";
+        std::cin >> continuar;
+        continuar = tolower(continuar); // Convertir a minúscula
+        
+        system("cls"); // Limpia la consola (solo en Windows)
+        
+    } while (continuar == 's');
+    
+    std::cout << "Programa terminado." << std::endl;
+    system("cls"); // Limpia la consola (solo en Windows)
+    system("color 07");
 }
