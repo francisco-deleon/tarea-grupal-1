@@ -24,7 +24,3 @@ void programaDieciseis(){
     hipotenusa = sqrt(cateto_opuesto * cateto_opuesto + cateto_adyacente * cateto_adyacente);
     cout << "La hipotenusa mide: " << hipotenusa << endl;
 }
-int main() {
-    programaDieciseis();
-    return 0;
-}
