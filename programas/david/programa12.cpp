@@ -19,8 +19,8 @@ void programaDoce()
 	char hexChars[] = {'0','1','2','3','4','5','6','7',
 					   '8','9','A','B','C','D','E','F',};
 					   
-	cout<<"Ingrese un numero decimal: ";
-	cin>>decimal;
+	cout << "Ingrese un numero decimal: ";
+	cin >> decimal;
 	
 	if(decimal == 0){
 		hexadecimal = "0";
@@ -33,11 +33,5 @@ void programaDoce()
 		}
 	}
 	
-	cout<<"El numero hexadecimal es: "<<hexadecimal<<endl;
-}
-
-int main()
-{
-	programaDoce();
-	return 0;
+	cout << "El numero hexadecimal es: " << hexadecimal << endl;
 }
